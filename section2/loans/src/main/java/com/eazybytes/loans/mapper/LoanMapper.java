@@ -12,6 +12,7 @@ public class LoanMapper {
         loansDto.setAmountPaid(loans.getAmountPaid());
         loansDto.setOutstandingAmount(loans.getOutstandingAmount());
         return loansDto;
+        
     }
 
     public static Loans mapToLoans(LoansDto loansDto, Loans loans){
